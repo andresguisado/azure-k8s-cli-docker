@@ -1,0 +1,3 @@
+[submodule "azure"]
+	path = azure
+	url = git@github.com:andresguisado/azure-k8s-cli.git

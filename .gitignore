@@ -1,3 +1,5 @@
+# Env Vars
+env*
 # Build and Release Folders
 bin/
 bin-debug/
