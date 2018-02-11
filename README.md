@@ -11,13 +11,13 @@ You also can create an Azure Container Registry (ACR).
  
 ## Getting Started
 
-- Clone the project locally: 
+- Clone the project locally:
 ```
-git clone <git_url> && export $REPO_PATH=$PWD
+git clone --recurse-submodules git@github.com:andresguisado/azure-k8s-cli-docker.git && export REPO_PATH=$PWD/azure-k8s-cli-docker
 ```
 - Create env.sh file as follows:
 ```
-touch envs.sh && export $ENV_VAR_PATH=$PWD/envs.sh
+touch envs.sh && export ENV_VAR_PATH=$PWD/envs.sh
 ```
 ```
 AZURE_SUBSCRIPTION=XXXXXXXX
